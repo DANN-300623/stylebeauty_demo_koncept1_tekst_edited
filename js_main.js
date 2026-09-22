@@ -5,13 +5,12 @@
 
 /* =====================================================
    BACKEND ADRESA
-   Dok testiraš lokalno (XAMPP), ostavi kako jeste.
-   Kad sajt bude na pravom hostingu, promeni ovo u
-   pravu adresu foldera sa PHP fajlovima, npr.:
-   "https://tvoj-domen.rs/booking"
+   Apps Script Web App URL — Deploy → Manage deployments →
+   kopiraj URL pored "Web app" (mora biti .../exec na kraju,
+   ne "/library/").
 ===================================================== */
 
-const API_BASE = "https://script.google.com/macros/library/d/1V3rjwpSdVHNvCMhPF8TY-5u4G5kmsJcbP6OYNZPXuUANOtG5xwE6Mq1y/3";
+const API_BASE = "https://script.google.com/macros/s/AKfycbxH0SF823d_BN1kB6oqAjc2_Dn-s-AeyzGL-trvcFbv9fFJiD92JxTH5onObn8DSWX5/exec";
 
 /* =====================================================
    SEARCH INDEX — sadržaj svih stranica za pretragu
