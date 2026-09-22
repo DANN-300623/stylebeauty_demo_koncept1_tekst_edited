@@ -1114,7 +1114,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 fetch(API_BASE, {
                     method: "POST",
-                    headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(podaci)
                 })
                     .then(res => res.json())
