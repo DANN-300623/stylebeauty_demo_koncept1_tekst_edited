@@ -1061,9 +1061,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     return;
                 }
 
-                if (phone && phone.value.trim().length < 5) {
+                if (phone && phone.value.trim().length > 0 && phone.value.trim().length < 5) {
                     phone.focus();
-                    showFormMessage(message, "Molimo unesite broj telefona.", true);
+                    showFormMessage(message, "Uneti broj telefona izgleda prekratko.", true);
                     return;
                 }
 
