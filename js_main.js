@@ -11,7 +11,7 @@
    "https://tvoj-domen.rs/booking"
 ===================================================== */
 
-const API_BASE = "PASTE_TVOJ_APPS_SCRIPT_WEB_APP_URL_OVDE";
+const API_BASE = "https://script.google.com/macros/library/d/1V3rjwpSdVHNvCMhPF8TY-5u4G5kmsJcbP6OYNZPXuUANOtG5xwE6Mq1y/3";
 
 /* =====================================================
    SEARCH INDEX — sadržaj svih stranica za pretragu
